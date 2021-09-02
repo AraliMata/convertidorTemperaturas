@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1FBC4226E0564400885D45 /* TemperatureConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FBC4126E0564400885D45 /* TemperatureConversion.swift */; };
+		8D725F4626E065CB007AD1C1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D725F4526E065CB007AD1C1 /* ListViewController.swift */; };
 		8D8BD6BF26DDAF7A00640E66 /* TemperatureConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BD6BE26DDAF7A00640E66 /* TemperatureConverterService.swift */; };
 		8DAF70B026CDDFCD0050805F /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF70AF26CDDFCD0050805F /* Temperature.swift */; };
 		8DAF70B626CDE2520050805F /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF70B526CDE2520050805F /* TemperatureConverter.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D1FBC4126E0564400885D45 /* TemperatureConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConversion.swift; sourceTree = "<group>"; };
+		8D725F4526E065CB007AD1C1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		8D8BD6BE26DDAF7A00640E66 /* TemperatureConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterService.swift; sourceTree = "<group>"; };
 		8DAF70AF26CDDFCD0050805F /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		8DAF70B526CDE2520050805F /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				8DAF70AF26CDDFCD0050805F /* Temperature.swift */,
+				8D1FBC4126E0564400885D45 /* TemperatureConversion.swift */,
 			);
 			path = ValueObject;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 				8DB7F9A926CB3C1900110871 /* Assets.xcassets */,
 				8DB7F9AB26CB3C1900110871 /* LaunchScreen.storyboard */,
 				8DB7F9AE26CB3C1900110871 /* Info.plist */,
+				8D725F4526E065CB007AD1C1 /* ListViewController.swift */,
 			);
 			path = ConvertidorTemperatura;
 			sourceTree = "<group>";
@@ -302,8 +308,10 @@
 				8DAF70B626CDE2520050805F /* TemperatureConverter.swift in Sources */,
 				8DB7F9A526CB3C1400110871 /* ViewController.swift in Sources */,
 				8DB7F9A126CB3C1400110871 /* AppDelegate.swift in Sources */,
+				8D1FBC4226E0564400885D45 /* TemperatureConversion.swift in Sources */,
 				8DAF70B026CDDFCD0050805F /* Temperature.swift in Sources */,
 				8DB7F9A326CB3C1400110871 /* SceneDelegate.swift in Sources */,
+				8D725F4626E065CB007AD1C1 /* ListViewController.swift in Sources */,
 				8D8BD6BF26DDAF7A00640E66 /* TemperatureConverterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
