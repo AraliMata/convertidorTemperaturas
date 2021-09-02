@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8BD6BF26DDAF7A00640E66 /* TemperatureConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BD6BE26DDAF7A00640E66 /* TemperatureConverterService.swift */; };
 		8DAF70B026CDDFCD0050805F /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF70AF26CDDFCD0050805F /* Temperature.swift */; };
 		8DAF70B626CDE2520050805F /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF70B526CDE2520050805F /* TemperatureConverter.swift */; };
 		8DAF70BB26CDE4100050805F /* TemperatureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF70BA26CDE4100050805F /* TemperatureConverterTests.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D8BD6BE26DDAF7A00640E66 /* TemperatureConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterService.swift; sourceTree = "<group>"; };
 		8DAF70AF26CDDFCD0050805F /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		8DAF70B526CDE2520050805F /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		8DAF70BA26CDE4100050805F /* TemperatureConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterTests.swift; sourceTree = "<group>"; };
@@ -80,9 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D8BD6BD26DDAF6000640E66 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D8BD6BE26DDAF7A00640E66 /* TemperatureConverterService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8DAF70AD26CDDF220050805F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D8BD6BD26DDAF6000640E66 /* Services */,
 				8DAF70B426CDE2390050805F /* Tools */,
 				8DAF70AE26CDDF3B0050805F /* ValueObject */,
 			);
@@ -293,6 +304,7 @@
 				8DB7F9A126CB3C1400110871 /* AppDelegate.swift in Sources */,
 				8DAF70B026CDDFCD0050805F /* Temperature.swift in Sources */,
 				8DB7F9A326CB3C1400110871 /* SceneDelegate.swift in Sources */,
+				8D8BD6BF26DDAF7A00640E66 /* TemperatureConverterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
